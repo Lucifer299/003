@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); */
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+ОБНУЛЕНИЕ СТИЛЕЙ
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+
+}
+body {
+    font-family: 'Gilroy', sans-serif;  
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+.text {
+    /* font-weight: 700; */
+}
+.text {
+    color: rgb(25, 43, 148);
+}
+.text {
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+    /* text-align: center; */
+    text-decoration: underline;
+    text-decoration: line-through;
+
+    text-decoration: overline;
+    text-decoration: none;
+}
+a.link {
+    text-decoration-line: line-through;
+}
+.text {
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: none;
+}
+.text   {
+    line-height: 150%;
+}
+.text {
+    letter-spacing: 20px;
+}
+.text {
+    word-spacing: 20px;
+}
+.text {
+    text-indent: 50px;
+}
+.text {
+    white-space: normal;
+}
+.text {
+    white-space: nowrap;
+}
+p {
+    text-align: left;
+    line-height: 150%;
+}
+h1 {
+    text-align: center;
+    color: rgb(124, 7, 7);
+    word-spacing: 80px;
+    font-size: 19.5px;
+    
+}
+ {
+    text-align: center;
+}
+.centOs {
+    text-align: center;
+}
+.q {
+    text-transform: capitalize;
+    color: aquamarine;
+    text-indent: 50px;
+}
+.w {
+    text-transform: uppercase;
+    color: blueviolet;
+    white-space: 10px;
+    text-align: center;
+    text-shadow: 0.5px 1px 160px rgb(151, 0, 88);
+    
+}
+.e {
+    text-transform: lowercase;
+    color: deeppink;
+    letter-spacing: 10px;
+    text-align: right;
+
+}
+.r {
+    text-decoration: line-through;
+}
+.t {
+    text-decoration: underline;
+}
+.y {
+    text-decoration: overline;
+}
+.u {
+    white-space: nowrap;
+    font-weight: 200;
+    font-style: italic;
+}
